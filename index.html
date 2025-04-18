@@ -16,7 +16,7 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./assets/images/favicon-32x32.png"
+      href="./images/favicon-32x32.png"
     />
 
     <title>Stefan Sträter | Blog preview card</title>
@@ -32,6 +32,7 @@
         justify-content: center;
         flex-direction: column;
         height: 100vh;
+        overflow: hidden;
       }
 
       .main-container {
@@ -104,6 +105,10 @@
       .attribution {
         font-size: 11px;
         text-align: center;
+        position: fixed;
+        bottom: 24px;
+        left: 0;
+        right: 0;
       }
 
       .attribution a {
@@ -132,7 +137,7 @@
       <div class="content">
         <img
           class="illustration"
-          src="./assets/images/illustration-article.svg"
+          src="./images/illustration-article.svg"
           alt=""
         />
         <h2>Learning</h2>
@@ -146,25 +151,21 @@
         </p>
 
         <div class="div-avatar">
-          <img
-            class="img-avatar"
-            src="./assets/images/classicu 2024-11-02 230115.110.jpg"
-            alt=""
-          />
+          <img class="img-avatar" src="./images/avatar.jpg" alt="" />
           <span class="text-avatar">Stefan</span>
         </div>
-        <div class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by
-          <a
-            href="https://www.frontendmentor.io/profile/stefanstraeter"
-            target="_blank"
-            >stefanstraeter</a
-          >.
-        </div>
       </div>
+    </div>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a
+        href="https://www.frontendmentor.io/profile/stefanstraeter"
+        target="_blank"
+        >stefanstraeter</a
+      >.
     </div>
   </body>
 </html>
